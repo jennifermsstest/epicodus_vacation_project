@@ -9,8 +9,15 @@
   </head>
   <body>
     <div class="container">
+
       <h1>Vacation Quiz</h1>
       <form id="character">
+
+        <div class="form-group">
+          <label for="name1">Name:</label>
+            <input id="name1" class="form-control" type="text">
+        </div>
+
 
         <p>What is your vacation budget?</p>
         <div class="radio">
@@ -32,11 +39,11 @@
           </label>
         </div>
 
-        <p>Do you prefer hot or cold temperatures?</p>
+        <p>What temperature do you prefer?</p>
         <div class="radio">
           <label>
             <input type="radio" name="temp" value="1" checked>
-            Hot
+            Mild
           </label>
         </div>
         <div class="radio">
@@ -45,56 +52,51 @@
             Cold
           </label>
         </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="temp" value="2">
+            Hot
+          </label>
+        </div>
 
         <p>Favorite Cusine?</p>
         <div class="radio">
           <label>
             <input type="radio" name="food" value="1" checked>
-            Hawaiian
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="food" value="2">
             Barbeque
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="food" value="3">
-            Italian
+            <input type="radio" name="food" value="2">
+              Fish & Chips
           </label>
         </div>
         <div class="radio">
           <label>
             <input type="radio" name="food" value="3">
-            American
+            Hawaiian
           </label>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="food" value="3">
-            Spanish
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="food" value="3">
-            French
-          </label>
-        </div>
+
 
         <p>Flip flops or sneakers?</p>
         <div class="radio">
           <label>
             <input type="radio" name="shoes" value="1" checked>
+            Sneaks
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="shoes" value="2">
             Flops
           </label>
         </div>
         <div class="radio">
           <label>
             <input type="radio" name="shoes" value="2">
-            Sneaks
+            Both
           </label>
         </div>
 
@@ -102,18 +104,27 @@
         <div class="radio">
           <label>
             <input type="radio" name="shoes" value="1" checked>
-            Yes
+            No
           </label>
         </div>
         <div class="radio">
           <label>
             <input type="radio" name="shoes" value="2">
-            No Way
+            Maybe
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="shoes" value="2">
+            Yes
           </label>
         </div>
 
         <button type="submit" class="btn btn-dark">Click for vacation result!</button>
       </form>
+
+      <br>
+      <br>
 
       <div id="output">
         <span id="answer"></span>
