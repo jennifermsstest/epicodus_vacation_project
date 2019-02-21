@@ -11,7 +11,7 @@
     <div class="container">
 
       <h1>Vacation Quiz</h1>
-      <form id="character">
+      <form id="vaca">
 
         <div class="form-group">
           <label for="name1">Name:</label>
@@ -54,7 +54,7 @@
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="temp" value="2">
+            <input type="radio" name="temp" value="3">
             Hot
           </label>
         </div>
@@ -95,7 +95,7 @@
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="shoes" value="2">
+            <input type="radio" name="shoes" value="3">
             Both
           </label>
         </div>
@@ -103,33 +103,32 @@
         <p>Are you willing to fly?</p>
         <div class="radio">
           <label>
-            <input type="radio" name="shoes" value="1" checked>
+            <input type="radio" name="fly" value="1" checked>
             No
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="shoes" value="2">
+            <input type="radio" name="fly" value="2">
             Maybe
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="shoes" value="2">
+            <input type="radio" name="fly" value="3">
             Yes
           </label>
         </div>
 
-        <button type="submit" class="btn btn-dark">Click for vacation result!</button>
+        <button type="submit" class="button">Click for vacation result!</button>
       </form>
 
       <br>
       <br>
 
       <div id="output">
-        <span id="answer"></span>
+        <p><span id="name1"></span> you are going to <span id="answer"></span>!</p>
       </div>
-
     </div>
   </body>
 </html>
