@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vacation Site</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Vacation Quiz</h1>
+      <form id="character">
+
+        <p>What is your vacation budget?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="budget" value="1" checked>
+            $500
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="budget" value="2">
+            $1,000
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="budget" value="3">
+            $1,500
+          </label>
+        </div>
+
+        <p>Do you prefer hot or cold temperatures?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="temp" value="1" checked>
+            Hot
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="temp" value="2">
+            Cold
+          </label>
+        </div>
+
+        <p>Favorite Cusine?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="1" checked>
+            Hawaiian
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="2">
+            Barbeque
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="3">
+            Italian
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="3">
+            American
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="3">
+            Spanish
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="3">
+            French
+          </label>
+        </div>
+
+        <p>Flip flops or sneakers?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="shoes" value="1" checked>
+            Flops
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="shoes" value="2">
+            Sneaks
+          </label>
+        </div>
+
+        <p>Are you willing to fly?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="shoes" value="1" checked>
+            Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="shoes" value="2">
+            No Way
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn-dark">Click for vacation result!</button>
+      </form>
+
+      <div id="output">
+        <span id="answer"></span>
+      </div>
+
+    </div>
+  </body>
+</html>
