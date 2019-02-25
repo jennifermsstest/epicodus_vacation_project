@@ -23,7 +23,7 @@ _No bugs at this time._
 
 ## Support and contact details
 
-_Feel free to reach out to @jmarks._
+_Feel free to reach out to @jmarks with any questions._
 
 
 ### License
