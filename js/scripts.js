@@ -4,17 +4,17 @@ $(document).ready(function() {
     var budget= parseInt($("input:radio[name=budget]:checked").val());
     var temp = parseInt($("input:radio[name=temp]:checked").val());
     var food = parseInt($("input:radio[name=food]:checked").val());
-    var shoes = parseInt($("input:radio[name=food]:checked").val());
-    var fly = parseInt($("input:radio[name=food]:checked").val());
+    var shoes = parseInt($("input:radio[name=shoes]:checked").val());
+    var fly = parseInt($("input:radio[name=fly]:checked").val());
 
     var result = budget + temp + food + shoes + fly
 
-    if (result <= 5) {
-      answer = "Austin, Texas"
+    if (result <= 7) {
+      answer = "Newport Beach, California"
       //var img = new Image();
       //img.src = "https://parade.com/wp-content/uploads/2018/11/austin-texas-skyline-state-flag-ftr.jpg";
-    } else if (result > 12) {
-      answer = "Bahamas"
+    } else if (result <= 13) {
+      answer = "Austin, Texas"
       //var img = new Image();
       //img.src = "https://www.placesyoullsee.com/wp-content/uploads/2015/04/23-Pictures-Proving-You-Need-to-Take-a-Vacation-in-the-Bahamas-title.jpg";
     } else  {
